@@ -6,7 +6,6 @@
 !*.pdf
 !*.py
 !*.txt
-!*.png
 !.gitignore
 !ejercicio1/
 !ejercicio2/
