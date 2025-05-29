@@ -90,5 +90,5 @@ plt.title(f'Todas las Componentes Conectadas ({num_labels-1} componentes)')
 plt.axis('off')
 plt.show()
 
-#--------------------------------------------------------
+#---------------------------------------------------------
 
