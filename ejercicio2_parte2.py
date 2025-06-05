@@ -225,7 +225,7 @@ def detectar_color_en_intersecciones(img_base, hsv_img, contornos):
         color_name = get_color_name(dominant_hsv)
         colores_detectados.append(color_name)
         
-        # Flechas: más larga si es el del medio
+        # Flechas
         largo_flecha = 100 if i == indice_medio else 50
         texto_offset = 30 if i == indice_medio else 15
 
@@ -280,7 +280,7 @@ def procesar_imagen_resistencia(ruta_imagen):
     # 7. Detección de contornos
     contornos, _ = cv2.findContours(img_invertida, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     
-    # 8. NUEVA FUNCIÓN: Rotar si es necesario y recalcular contornos
+    # 8. Rotar si es necesario y recalcular contornos
     img_final, hsv_final, contornos_finales = rotar_si_es_necesario(img, hsv, contornos)
     
     # 9. Imagen con contornos dibujados (usando la imagen final)
@@ -301,7 +301,7 @@ def procesar_imagen_resistencia(ruta_imagen):
     
     return {
         'original': img_original,
-        'hsv': hsv_final,  # Usar HSV final (podría estar espejada)
+        'hsv': hsv_final,  
         'mask_fondo': mask_fondo,
         'mask_bandas': mask_bandas,
         'mask_limpia': mask_bandas_limpia,
@@ -362,8 +362,8 @@ def crear_imagen_compuesta(resultados, nombre_imagen):
     
     # Información adicional en la parte inferior
     info_text = f"""Contornos encontrados: {resultados["num_contornos"]}
-Colores detectados: {' → '.join(resultados["colores_detectados"])}
-Valor calculado: {resultados["valor_resistencia"]}"""
+                    Colores detectados: {' → '.join(resultados["colores_detectados"])}
+                    Valor calculado: {resultados["valor_resistencia"]}"""
     
     fig.text(0.5, 0.02, info_text, 
              fontsize=12, ha='center', 
