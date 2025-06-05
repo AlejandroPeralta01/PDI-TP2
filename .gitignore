@@ -2,10 +2,8 @@
 *
 
 # Permitir exclusivamente los archivos con extensión .ipynb
-!*.ipynb
 !*.pdf
 !*.py
-!*.txt
 !*.pgn
 !.gitignore
 !imegenes/
