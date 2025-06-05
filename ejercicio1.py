@@ -282,7 +282,6 @@ def detectar_resistencias_parejas(ruta_imagen):
     print("           REPORTE DETALLADO DE DETECCIÓN")
     print("=" * 60)
     print(f"Imagen analizada: {ruta_imagen}")
-    print(f"Componentes totales detectados: {num_labels - 1}")
     print("-" * 60)
     print("CLASIFICACIÓN POR TIPO:")
     print(f"  • Resistencias: {contador_resistencias}")
