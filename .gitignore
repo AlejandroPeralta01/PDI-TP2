@@ -1,12 +1,2 @@
-# Ignorar todos los archivos y carpetas por defecto
-*
-
-# Permitir exclusivamente los archivos con extensión .ipynb
-!*.pdf
-!*.py
-!*.pgn
-!*.jpg
-!.gitignore
-!imegenes/
-!imagenes_intermedias/
-!imagenes_out/
+.gitignore
+pditp2/
