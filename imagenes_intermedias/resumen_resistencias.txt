@@ -1,0 +1,62 @@
+=== RESUMEN DE RESISTENCIAS PROCESADAS ===
+
+Archivo: R10_a_out.jpg
+Colores: Marron → Verde → Amarillo
+Valor: 150.0kΩ
+Contornos: 4
+--------------------------------------------------
+
+Archivo: R1_a_out.jpg
+Colores: Marron → Verde → Naranja
+Valor: 15.0kΩ
+Contornos: 4
+--------------------------------------------------
+
+Archivo: R2_a_out.jpg
+Colores: Naranja → Blanco → Verde
+Valor: 3.9MΩ
+Contornos: 4
+--------------------------------------------------
+
+Archivo: R3_a_out.jpg
+Colores: Marron → Negro → Rojo
+Valor: 1.0kΩ
+Contornos: 4
+--------------------------------------------------
+
+Archivo: R4_a_out.jpg
+Colores: Marron → Negro → Negro
+Valor: 10Ω
+Contornos: 4
+--------------------------------------------------
+
+Archivo: R5_a_out.jpg
+Colores: Marron → Rojo → Naranja
+Valor: 12.0kΩ
+Contornos: 4
+--------------------------------------------------
+
+Archivo: R6_a_out.jpg
+Colores: Marron → Negro → Naranja
+Valor: 10.0kΩ
+Contornos: 4
+--------------------------------------------------
+
+Archivo: R7_a_out.jpg
+Colores: Amarillo → Violeta → Verde
+Valor: 4.7MΩ
+Contornos: 4
+--------------------------------------------------
+
+Archivo: R8_a_out.jpg
+Colores: Amarillo → Violeta → Naranja
+Valor: 47.0kΩ
+Contornos: 4
+--------------------------------------------------
+
+Archivo: R9_a_out.jpg
+Colores: Amarillo → Violeta → Negro
+Valor: 47Ω
+Contornos: 4
+--------------------------------------------------
+

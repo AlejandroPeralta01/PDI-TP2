@@ -6,6 +6,8 @@
 !*.pdf
 !*.py
 !*.txt
+!*.pgn
 !.gitignore
-!ejercicio1/
-!ejercicio2/
+!imegenes/
+!imagenes_intermedias/
+!imagenes_out/
