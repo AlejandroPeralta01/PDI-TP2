@@ -5,6 +5,7 @@
 !*.pdf
 !*.py
 !*.pgn
+!*.jpg
 !.gitignore
 !imegenes/
 !imagenes_intermedias/
