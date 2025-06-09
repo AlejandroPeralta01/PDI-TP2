@@ -29,7 +29,7 @@ Detecta y clasifica componentes electrónicos en imágenes de placas:
 python ejercicio1.py
 ```
 
-Coloca tu imagen de placa como `placa.png` en el directorio raíz.
+Colocar la imagen de la placa como `placa.png` en el directorio raíz.
 
 ## Ejercicio 2 Parte 1: Transformación de Perspectiva
 
