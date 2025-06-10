@@ -96,7 +96,7 @@ def rotar_si_es_necesario(img, hsv_img, contornos):
         upper_yellow = np.array([18, 200, 200])
         mask_fondo = cv2.inRange(hsv_resultado, lower_yellow, upper_yellow)
         
-        # 3. Invertir para quedarse with las bandas
+        # 3. Invertir para quedarse las bandas
         mask_bandas = cv2.bitwise_not(mask_fondo)
         
         # 4. Limpiar con morfología
@@ -259,7 +259,7 @@ def procesar_imagen_resistencia(ruta_imagen):
     
     # 2. Preprocesamiento
     blur = cv2.GaussianBlur(img, (3, 3), 0)
-    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    hsv = cv2.cvtColor(blur, cv2.COLOR_BGR2HSV)
     
     # 3. Máscara para eliminar fondo (cuerpo amarillo de la resistencia)
     lower_yellow = np.array([14, 100, 100])
