@@ -2,6 +2,12 @@
 
 Este proyecto contiene tres ejercicios para procesar imágenes de componentes electrónicos utilizando OpenCV y técnicas de visión por computadora.
 
+## Integrantes
+
+- **Frattini Gianfranco**
+- **Peralta Alejandro**
+- **Prado Matias**
+
 ## Estructura del Proyecto
 
 ```
