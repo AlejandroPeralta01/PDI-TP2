@@ -94,7 +94,7 @@ def rotar_si_es_necesario(img, hsv_img, contornos):
         # 2. Máscara para eliminar fondo (cuerpo amarillo de la resistencia)
         lower_yellow = np.array([14, 100, 100])
         upper_yellow = np.array([18, 200, 200])
-        mask_fondo = cv2.inRange(blur, lower_yellow, upper_yellow)
+        mask_fondo = cv2.inRange(hsv_resultado, lower_yellow, upper_yellow)
         
         # 3. Invertir para quedarse las bandas
         mask_bandas = cv2.bitwise_not(mask_fondo)
